@@ -1,0 +1,7 @@
+deploy:
+  - provider: script
+    script: echo deployed
+    on:
+      branch:
+        - master
+        - test
